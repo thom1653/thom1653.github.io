@@ -1,0 +1,14 @@
+# mkdocs.yml
+site_name: CMSE In-Class 4
+theme:
+  name: "material"
+plugins:
+  - mkdocstrings
+nav:
+  - Home: index.md
+  - my_adder: my_adder.md
+  - my_thermo_stat: my_thermo_stat.md
+  - have_digits: have_digits.md
+  - area_of_rectangle: area_of_rectangle.md
+  - perimeter_of_rectangle: perimeter_of_rectangle.md
+  
